@@ -1,5 +1,5 @@
 spring.datasource.url: jdbc:h2:file:./camunda-h2-database
-
+spring.port: 9010
 camunda.bpm.admin-user:
   id: admin
   password: admin
