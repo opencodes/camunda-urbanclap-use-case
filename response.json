@@ -1,0 +1,72 @@
+{
+    "services": [
+        {
+            "question": "Plumbing",
+            "serviceId": "plumbing"
+        },
+        {
+            "name": "Carpentry",
+            "id": "Carpentry"
+        },
+        {
+            "name": "Electrician",
+            "id": "Electrician"
+        }
+    ],
+    "questions": [
+        {
+            "id": 1,
+            "question": "Tap Repair?",
+            "serviceId": "plumbing",
+            "cost": 100
+        },
+        {
+            "id": 2,
+            "question": "Waste pipe leakage?",
+            "serviceId": "plumbing",
+            "cost": 150
+        },
+        {
+            "id": 3,
+            "question": "Jet spray installation?",
+            "serviceId": "plumbing",
+            "cost": 200
+        },
+        {
+            "id": 4,
+            "question": "Door Repair?",
+            "serviceId": "carpentry",
+            "cost": 300
+        },
+        {
+            "id": 5,
+            "question": "Cupboard Hinge Replacement?",
+            "serviceId": "carpentry",
+            "cost": 400
+        },
+        {
+            "id": 6,
+            "question": "Curtain rod installation?",
+            "serviceId": "carpentry",
+            "cost": 100
+        },
+        {
+            "id": 7,
+            "question": "Switch Replacement?",
+            "serviceId": "electrician",
+            "cost": 50
+        },
+        {
+            "id": 8,
+            "question": "Socket Replacement?",
+            "serviceId": "electrician",
+            "cost": 150
+        },
+        {
+            "id": 9,
+            "question": "Fan Repair?",
+            "serviceId": "electrician",
+            "cost": 250
+        }
+    ]
+}
