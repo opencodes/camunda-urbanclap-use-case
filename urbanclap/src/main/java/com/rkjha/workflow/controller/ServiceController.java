@@ -9,6 +9,7 @@ import java.util.stream.Collectors;
 
 @RestController
 @RequestMapping("/api/v1/services")
+@CrossOrigin("*")
 public class ServiceController {
     private List<LocalService> localServices = new ArrayList<>();
     private List<ServiceQuestion> serviceQuestions = new ArrayList<>();

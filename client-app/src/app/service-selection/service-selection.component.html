@@ -1,0 +1,5 @@
+<p>service-selection works!</p>
+<hr />
+<div *ngFor="let item of services">
+    <a [routerLink]="['services', item.id]"> {{item.name}}</a>
+</div>
